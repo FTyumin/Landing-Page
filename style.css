@@ -117,6 +117,50 @@ ul {
 }
 
 .quote {
-    
+    margin-top: 100px;
+    background-color: #E5E7EB;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 120px;
 }
+
+.quote .text {
+    font-size: 36px;
+    font-style:italic;
+    margin-top:50px ;
+}
+
+.quote .author {
+    font-weight: bold;
+    font-size:30px;
+    width: 50%;
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.action {
+    margin-top:100px;
+    width: 80%;
+    height: 30%;
+    background-color: #3882F6;
+    padding: 30px 120px;
+}
+
+.action h1,.action p {
+    color:white;
+}
+
+.action button {
+    float: right;
+    border: 2px solid white;
+    color:white;
+    background-color: #131e98;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
 
