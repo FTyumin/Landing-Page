@@ -17,6 +17,7 @@ body {
 
 .header {
     font-size:24px;
+    font-weight: 900;
     color:#f9faf8;
 }
 
@@ -41,6 +42,7 @@ ul {
     background-color: #1F2937;
     color: white;
     height: 40vh;
+    margin-top: 40px;
 }
 
 .info h1 {
@@ -51,7 +53,7 @@ ul {
 
 .info {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: auto;
@@ -71,11 +73,11 @@ ul {
 
 #hero {
     padding:5px 30px;
-    margin-top: 8px;
     color:white;
     background-color: #3882F6;
     border-radius: 8px;
     font-weight:900;
+    margin-top: 20px;
 }
 
 .main {
@@ -110,10 +112,12 @@ ul {
     height: 150px;
     border: 4px solid rgb(22, 36, 168);
     background: white;
+    border-radius: 8px;
 }
 
 .list p{
-    text-align: justify;
+    text-align:justify;
+    margin-top: 10px;
 }
 
 .quote {
@@ -125,7 +129,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 120px;
+    padding: 80px 250px;
 }
 
 .quote .text {
@@ -137,8 +141,9 @@ ul {
 .quote .author {
     font-weight: bold;
     font-size:30px;
-    width: 50%;
+    width: 100%;
     text-align: right;
+    margin-right: 0;
     margin-bottom: 50px;
 }
 
@@ -148,6 +153,10 @@ ul {
     height: 30%;
     background-color: #3882F6;
     padding: 30px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
 }
 
 .action h1,.action p {
@@ -158,9 +167,20 @@ ul {
     float: right;
     border: 2px solid white;
     color:white;
-    background-color: #131e98;
+    background-color: #3882F6;
     padding: 10px 20px;
     border-radius: 8px;
+    width:150px;
+    font-weight: 900;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: #1F2937;
+    width: 100%;
+    padding: 30px;
+    color:white;
+    text-align: center;
 }
 
 
